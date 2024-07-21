@@ -3,26 +3,167 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
+    <title>Pradeep T - Resume</title>
     <style>
-        body, html {
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
             margin: 0;
             padding: 0;
-            height: 100%;
-            width: 100%;
-            overflow: hidden;
+            background-color: #f4f4f4;
         }
-        iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: none;
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .contact-info a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+        .section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .section ul li {
+            margin-bottom: 10px;
+        }
+        .project-link, .proto-link {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        .project-link:hover, .proto-link:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <iframe src="Pradeep_new_Resume.pdf"></iframe>
+    <div class="container">
+        <div class="contact-info">
+            <div>
+                <h1>Pradeep T</h1>
+                <p>Phone: 6369633857 | Email: <a href="mailto:pradeepthiruppathi19@gmail.com">pradeepthiruppathi19@gmail.com</a></p>
+            </div>
+            <div>
+                <p><a href="https://github.com/pradeepthiruppathi">GitHub</a> | <a href="https://www.linkedin.com/in/pradeep-thiruppathi/">LinkedIn</a> | <a href="https://pradeepdesigns.framer.website/">Portfolio</a></p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Career Objective</h2>
+            <p>Aspiring front-end developer passionate about creating engaging and user-friendly web interfaces. Eager to apply my design skills and learn new technologies in a dynamic team environment.</p>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <strong>Kongu Engineering College, Erode</strong> (September 2022 – Present)<br>
+                    Bachelor of Technology in Information Technology<br>
+                    Scored: 7.2 CGPA<br>
+                    Relevant Coursework: Cloud Computing, Web Technology.
+                </li>
+                <li>
+                    <strong>Kongu Polytechnic College, Erode</strong> (June 2019 – July 2022)<br>
+                    Diploma in Computer Technology<br>
+                    Scored: 91.71%
+                </li>
+                <li>
+                    <strong>Nadar Saraswathi Higher Secondary School, Theni</strong> (June 2017 – May 2019)<br>
+                    Higher Secondary<br>
+                    Scored: 71%
+                </li>
+                <li>
+                    <strong>Nadar Saraswathi Higher Secondary School, Theni</strong> (June 2016 – May 2017)<br>
+                    Secondary School Leaving Certificate<br>
+                    Scored: 84%
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <strong>Dark Pattern Website Scanner Tool – DPBH 2023</strong><br>
+                    <a href="https://github.com/vimalan-u/DarkPattern-website-scanner-tool" class="project-link">Repo-Link: DarkPattern-website-scanner-tool</a><br>
+                    Tech Stack: Frontend - Flask, HTML, JavaScript, CSS | Backend - Python, MongoDB, Burp Suite
+                </li>
+                <li>
+                    <strong>SRI VIMAL's Clothing E-Commerce Website</strong><br>
+                    Tech Stack: Frontend - ReactJS, HTML, CSS | Backend - NodeJS, MongoDB
+                </li>
+                <li>
+                    <strong>Blood Bank Management Website Design</strong><br>
+                    <a href="https://www.figma.com/proto/RAJPYMU8rDI5PglY9haYGI/MINI-PROJECT-UI-(BLOODBANKS)-(Community)?node-id=2-3&t=121DkG3xFAHtcw9r-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A3" class="proto-link">Proto-Link: Blood Bank Management System</a><br>
+                    Tech Stack: Frontend - Figma
+                </li>
+                <li>
+                    <strong>Portfolio</strong><br>
+                    <a href="https://pradeepdesigns.framer.website/" class="proto-link">Proto-Link: Portfolio</a><br>
+                    Tech Stack: Frontend - Framer
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Languages:</strong> HTML/CSS, Python, JavaScript, Java, C#</li>
+                <li><strong>Databases:</strong> PHPSQL, Xampp Server</li>
+                <li><strong>Libraries:</strong> React.js, Pandas, OpenCV</li>
+                <li><strong>Frameworks:</strong> Flask, Bootstrap</li>
+                <li><strong>Tools & Technologies:</strong> Adobe Photoshop, Figma, FlutterFlow, Wix, GitHub, AWS (EC2, S3), Adobe Illustrator</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Awards and Accomplishments</h2>
+            <ul>
+                <li>Best Outgoing Student Inter Department at Kongu Engineering College.</li>
+                <li>Finalists – Dark Pattern Buster Hackathon 2023 by Ministry of Consumer Affairs at IIT (BHU), Varanasi.</li>
+                <li>1st Place – Won Rs.5000 in Ideathon 2023 at Kongu Engineering College.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Courses and Certifications</h2>
+            <ul>
+                <li><a href="https://www.linkedin.com/learning/certificates/c72eb7dc9ff8156f1c1113c3f8c67419b9207746adfaf6175091c473cc2a8d98?trk=public_profile_see-credential" class="proto-link">Career Essentials in Generative AI by Microsoft</a></li>
+                <li><a href="https://www.credly.com/badges/0ca73993-36b6-464c-9926-a3918f32f6c0/public_url?trk=public_profile_see-credential" class="proto-link">AWS Academy Cloud Architecting by AWS</a></li>
+                <li>UI/UX Designing Using Figma</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Volunteership</h2>
+            <ul>
+                <li>1 Week In Plant training in Web Development at Code Blind Technologies, Coimbatore.</li>
+                <li>MultiMedia Team Editor Head (2022 - Present) – Information Technology Association at Kongu Engineering College.</li>
+                <li>Member (2022 - Present) – Research and Development at Kongu Engineering College.</li>
+                <li>Member (2022 - Present) – Mobile Application Development Club at Kongu Engineering College.</li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
